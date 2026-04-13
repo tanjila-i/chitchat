@@ -4,7 +4,7 @@ import { axiosInstance } from "../libs/axiosInstance";
 import { io } from "socket.io-client";
 
 const BASE_URL =
-  import.meta.env.MODE === "development" ? "https://chitchat-backend-qns7.onrender.com" : "/";
+  import.meta.env.MODE === "development" ? "https://chitchat-backend-g0bv.onrender.com" : "/";
 
 export const useAuthStore = create((set, get) => ({
   authUser: null,
